@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:orientation="vertical" 
+    android:layout_width="match_parent"   
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_message">   
+       
+    <TextView android:text="大师兄，你好。你刚刚接了一个单，以在个人中心中联系客户喔，人家正等着你帮忙呢." 
+        android:id="@+id/item_textView_message"   
+        android:layout_width="match_parent"  
+        android:textColor="#000000"  
+        android:layout_height="wrap_content" 
+        android:gravity="left"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:textSize="16sp">
+    </TextView>   
+   
+</LinearLayout> 
+
+<!-- From: file:/D:/AndroidStudioWorkspase/MyApplication/RepairService/res/layout/grid_item_message.xml -->

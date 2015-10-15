@@ -1,0 +1,39 @@
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+<shape 
+    android:shape="rectangle"
+    >
+    <solid android:color="#10aedc"/>
+    <corners 
+        android:topRightRadius="5dp"
+        android:topLeftRadius="5dp"
+        android:bottomLeftRadius="5dp"
+        android:bottomRightRadius="5dp"
+        />
+  <stroke 
+      android:width="1dp"
+        android:color="#40a8d4"
+      />
+</shape>
+</item>
+
+    <item android:state_pressed="true">
+<shape 
+    android:shape="rectangle"
+    >
+    <solid android:color="#aa10aedc"/>
+    <corners 
+        android:topRightRadius="5dp"
+        android:topLeftRadius="5dp"
+        android:bottomLeftRadius="5dp"
+        android:bottomRightRadius="5dp"
+        />
+  <stroke 
+      android:width="1dp"
+        android:color="#40a8d4"
+      />
+</shape>
+</item>
+</selector>
+<!-- From: file:/D:/AndroidStudioWorkspase/MyApplication/LoginLibrary/res/drawable/shape_blue_btn.xml --><!-- From: file:/D:/AndroidStudioWorkspase/MyApplication/LoginLibrary/build/intermediates/bundles/debug/res/drawable/shape_blue_btn.xml -->

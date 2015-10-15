@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:orientation="vertical" 
+    android:layout_width="wrap_content"   
+    android:layout_height="wrap_content"
+    android:padding="1px"
+    android:background="@drawable/shape_question">   
+    
+    <ImageView 
+        android:layout_height="100dip" 
+        android:id="@+id/item_imageView_shifu"   
+        android:layout_width="200dip" 
+        android:src="@drawable/pc_1" 
+        android:layout_gravity="center">
+    </ImageView>   
+    <TextView 
+        android:visibility="gone"
+        android:id="@+id/item_tv_style"   
+        android:layout_width="200dip" 
+        android:text="处理中" 
+        android:textColor="#ffffff"  
+        android:layout_height="wrap_content" 
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:lines="1"
+        android:background="#44000000"/>
+    <TextView 
+        android:layout_below="@+id/item_imageView_shifu"
+        android:text="猪八戒爱泡妞、爱吃饭、爱偷懒" 
+        android:id="@+id/item_textView_shifu"   
+        android:layout_width="200dip"  
+        android:textColor="@color/textview_text_color"  
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="5dip"
+        android:lines="1"
+        android:textSize="10sp">
+    </TextView>   
+   <TextView 
+       android:layout_below="@+id/item_textView_shifu"
+       android:text="2014-9-30" 
+        android:id="@+id/item_tv_time_main_page_shifu"   
+        android:layout_width="200dip"  
+        android:textColor="#55000000"  
+        android:layout_height="wrap_content" 
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:paddingLeft="5dip"
+        android:paddingRight="10dip"
+        android:paddingTop="0dip"
+        android:paddingBottom="3dip"
+        android:textSize="8sp"
+        android:lines="1">
+    </TextView>   
+</RelativeLayout> 
+
+<!-- From: file:/D:/AndroidStudioWorkspase/MyApplication/RepairService/res/layout/grid_item_shifu.xml -->

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:orientation="vertical" 
+    android:layout_width="match_parent"   
+    android:layout_height="wrap_content"
+    android:background="#a69c90">   
+    
+ <LinearLayout  
+    android:orientation="horizontal" 
+    android:layout_width="match_parent"   
+    android:layout_height="wrap_content"
+    android:background="#a69c90"
+    android:paddingTop="10dip"
+    android:paddingBottom="10dip">       
+    <TextView android:text="电脑" 
+        android:id="@+id/item_textView_type1"   
+        android:layout_width="wrap_content"  
+        android:textColor="#99ffffff"  
+        android:layout_height="wrap_content" 
+        android:gravity="left"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        
+        android:textSize="17sp">
+    </TextView>   
+    <TextView android:text="装系统" 
+        android:id="@+id/item_textView_type2"   
+        android:layout_width="wrap_content"  
+        android:textColor="#77ffffff"  
+        android:layout_height="wrap_content" 
+        android:gravity="left"
+        android:singleLine="true"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        
+        android:textSize="10sp">
+    </TextView>   
+   
+</LinearLayout>
+<View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#22ffffff"/> 
+</LinearLayout>
+
+<!-- From: file:/D:/AndroidStudioWorkspase/MyApplication/RepairService/res/layout/grid_item_type.xml -->

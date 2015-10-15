@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     
+    
+    >
+
+    <RelativeLayout
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:orientation="horizontal"
+    android:background="@color/main_blue" 
+    android:gravity="center_vertical"
+    >
+
+    <ImageView
+       
+    android:background="@drawable/back"
+    android:layout_width="20dip"
+    android:layout_height="30dip"
+    android:layout_marginLeft="10dp"
+    android:layout_centerVertical="true"
+         />
+    <TextView
+       
+    
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="发布编辑"
+    android:textColor="#ffffff"
+    android:textSize="@dimen/title_size"
+    android:layout_centerInParent="true"
+         />
+    
+    
+   </RelativeLayout>
+    
+    
+    
+    
+   <RelativeLayout
+    android:layout_below="@id/title"
+    android:layout_width="match_parent"
+    android:layout_height="100dip"
+    android:layout_marginTop="10dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    >
+    <ImageView
+    android:background="@drawable/pc_1"
+    android:layout_width="100dip"
+    android:layout_height="100dip"
+         />
+    <ImageView
+    android:background="@drawable/pc_add"
+    android:layout_width="100dip"
+    android:layout_height="100dip"
+    android:layout_centerHorizontal="true"
+         />
+    <ImageView
+    android:background="@drawable/pc_add"
+    android:layout_width="100dip"
+    android:layout_height="100dip"
+    android:layout_alignParentRight="true"
+         />
+   </RelativeLayout>
+ </RelativeLayout>
+   <Spinner 
+       android:id="@+id/Spinner01"
+       android:layout_width="fill_parent"
+       android:layout_height="50dip"
+       android:layout_marginLeft="10dip"
+       android:layout_marginRight="10dip"
+       android:layout_marginTop="10dip"
+       
+       >
+   </Spinner>
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     
+    >
+
+    <TextView
+    android:background="@color/textview_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:layout_centerHorizontal="true"
+    android:text="自己描述：
+电脑一直开不了机，开机的时候就会出现一个蓝色
+屏幕，然后上面很多英文什么的.希望好心人帮我看
+看什么问题，可以在周一晚上联系我哒。"
+    android:paddingTop="10dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingBottom="10dip"
+    android:textColor="@color/textview_text_color"
+         />
+    
+</LinearLayout>
+
+   <ImageView
+    android:background="@drawable/play_delete"
+    android:layout_width="90dip"
+    android:layout_height="90dip"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center_horizontal"
+         />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="horizontal" >
+   <Button
+        
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginBottom="10dip"
+        android:background="@drawable/shape"
+        android:onClick="click"
+        android:text="确认发布"
+        android:textColor="#ffffff"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        />
+</LinearLayout>
+</LinearLayout>
+<!-- From: file:/D:/AndroidStudioWorkspase/MyApplication/RepairService/res/layout/activity_publish_edit_2.xml -->

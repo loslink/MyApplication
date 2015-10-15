@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/AndroidStudioWorkspase/MyApplication/LoginLibrary/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment/>
+    <color name="link_color">#FF0066CC</color>
+    <color name="simiple_button_color">#FFF</color>
+    <string name="app_name">miniTwitter</string>
+    <string name="hello">Hello World, LoginActivity!</string>
+    <string name="login_label_password">密码</string>
+    <string name="login_label_signin">登 录</string>
+    <string name="login_label_username">帐号</string>
+    <string name="login_lostpass_link"><a href="#">忘记密码？</a></string>
+    <string name="login_register_link">没有帐号？ <a href="#">注册</a></string>
+    <string name="login_status_logging_in">登录中...</string>
+    <string name="login_username_hint">Email或手机号</string>
+    <style name="normalText" parent="@android:style/TextAppearance">
+		<item name="android:textColor">#444</item>
+		<item name="android:textSize">14sp</item>
+	</style>
+</resources>

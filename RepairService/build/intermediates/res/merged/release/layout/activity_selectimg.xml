@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" 
+    android:focusable="true" 
+    android:focusableInTouchMode="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusable="true" 
+    android:focusableInTouchMode="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/main_blue" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="发布问题"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/activity_selectimg_send"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:gravity="center"
+                android:text="发布"
+                android:textColor="@drawable/text_while"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:background="@null"
+            android:gravity="left|top"
+            android:hint="尽情描述您的问题..." >
+        </EditText>
+
+        <GridView
+            android:id="@+id/noScrollgridview"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:horizontalSpacing="3dp"
+            android:numColumns="4"
+            android:scrollbars="none"
+            android:verticalSpacing="5dp" >
+        </GridView>
+
+        <TextView
+            android:id="@+id/addr_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dip"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="位置"
+            android:textColor="#aa000000"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/Spinner01"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginLeft="3dip"
+            android:layout_marginRight="3dip"
+            android:layout_marginTop="5dip"
+            android:prompt="@string/spin_prompt" >
+        </Spinner>
+
+        <com.example.utils.recordvoice.view.RecordMicView
+            android:id="@+id/record_mic"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/record_mic_bg"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/record"
+            android:layout_width="93dip"
+            android:layout_height="90dip"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/record" />
+
+        <FrameLayout
+            android:id="@+id/fl_play_delete"
+            android:layout_width="86dip"
+            android:layout_height="86dip"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2dp"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/playBtn"
+                android:layout_width="86dip"
+                android:layout_height="86dip"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/play" />
+
+            <LinearLayout
+                android:id="@+id/ll_delete"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="top|right"
+                android:background="@drawable/dot"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="2dp"
+                    android:layout_centerInParent="true"
+                    android:background="#ffffff" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/D:/AndroidStudioWorkspase/MyApplication/PubLibrary/res/layout/activity_selectimg.xml --><!-- From: file:/D:/AndroidStudioWorkspase/MyApplication/RepairService/build/intermediates/exploded-aar/MyApplication/PubLibrary/unspecified/res/layout/activity_selectimg.xml -->

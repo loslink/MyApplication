@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent" >  
+  
+    <ImageView  
+        android:id="@+id/img_view"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="22dp"
+        android:scaleType="fitXY" />  
+  
+    <ImageView  
+        android:id="@+id/select"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_alignParentRight="true"  
+        android:layout_alignParentTop="true"  
+        android:background="@drawable/icon_choice" 
+        android:visibility="gone" 
+        />
+    
+    <TextView android:id="@+id/txtState"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:text="未上传"
+        android:textSize="15dp"/>
+</RelativeLayout><!-- From: file:/D:/AndroidStudioWorkspase/MyApplication/RepairService/res/layout/item_photo_list.xml -->

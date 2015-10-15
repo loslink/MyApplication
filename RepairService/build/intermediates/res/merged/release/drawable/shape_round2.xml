@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+    <solid android:color="#ffffff" />
+    <corners
+        android:topLeftRadius="45dp"
+        android:topRightRadius="45dp"
+        android:bottomLeftRadius="45dp"
+        android:bottomRightRadius="45dp"/>
+    
+</shape><!-- From: file:/D:/AndroidStudioWorkspase/MyApplication/RepairService/res/drawable/shape_round2.xml -->

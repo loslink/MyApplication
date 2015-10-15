@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LoginLibrary/LoginLibrary.iml" filepath="$PROJECT_DIR$/LoginLibrary/LoginLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PubLibrary/PubLibrary.iml" filepath="$PROJECT_DIR$/PubLibrary/PubLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RepairService/RepairService.iml" filepath="$PROJECT_DIR$/RepairService/RepairService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/foldingtabbar/foldingtabbar.iml" filepath="$PROJECT_DIR$/foldingtabbar/foldingtabbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialanimatedswitch/materialanimatedswitch.iml" filepath="$PROJECT_DIR$/materialanimatedswitch/materialanimatedswitch.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,154 @@
+-injars 'D:\AndroidStudioWorkspase\MyApplication\RepairService\build\intermediates\multi-dex\release\allclasses.jar'
+-outjars 'D:\AndroidStudioWorkspase\MyApplication\RepairService\build\intermediates\multi-dex\release\componentClasses.jar'
+
+-libraryjars 'F:\android\SDK\adt-bundle-windows-x86_64-20140702\sdk\build-tools\23.0.0\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontpreverify
+-dontwarn
+-printconfiguration 'D:\AndroidStudioWorkspase\MyApplication\RepairService\build\intermediates\multi-dex\release\components.flags'
+
+
+-keep class null {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.itlao.repairservice.home.ctrl.MainActivity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.login.LoginActivity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.login.Login_Library_Activity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.findmaster.ctrl.ZhaoShiFuActivity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.login.Login_Activity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.publicq.ctrl.FabuActivity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.findq.ctrl.FindQuetionActivity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.pcenter.PersonalCenterActivity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.pcenter.immaster.ctrl.IamShifuActivity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.pcenter.imcustomer.ctrl.IamKehuActivity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.pcenter.manito.ctrl.DashenShoucangActivity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.pcenter.contact.ctrl.PhoneContactsActivity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.pcenter.msgcenter.ctrl.MessageCenterActivity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.pcenter.setting.ctrl.SettingActivity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.publicq.ctrl.XiangceOrXiangjiActivity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.ActivityTest {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.QuetionDetailActivity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.pcenter.manito.ctrl.DashenPersonalActivity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.findmaster.ctrl.Zhaoshifu_geren_Activity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.publicq.ctrl.FabuActivity2 {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.ActivityFindPassword {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.register.ctrl.ActivityMasterRegister {
+    <init>();
+}
+
+-keep class com.example.testpic.PublishedActivity {
+    <init>();
+}
+
+-keep class com.example.testpic.ImageGridActivity {
+    <init>();
+}
+
+-keep class com.example.testpic.TestPicActivity {
+    <init>();
+}
+
+-keep class com.example.testpic.PhotoActivity {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.register.ctrl.ActivityRegister {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.ActivityFeekback {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.findmaster.ctrl.ActivityOders {
+    <init>();
+}
+
+-keep class com.itlao.repairservice.ActivityMasterFeekback {
+    <init>();
+}
+
+-keep class com.baidu.location.f {
+    <init>();
+}
+
+-keep class com.mytwitter.acitivity.LoginActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

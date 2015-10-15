@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+	<gradient 
+		android:startColor="#81e1fc"
+		android:endColor="#259cbb"
+		android:angle="-90"
+	/>
+</shape><!-- From: file:/D:/AndroidStudioWorkspase/MyApplication/LoginLibrary/res/drawable-mdpi/background_login.xml --><!-- From: file:/D:/AndroidStudioWorkspase/MyApplication/LoginLibrary/build/intermediates/bundles/debug/res/drawable-mdpi/background_login.xml -->

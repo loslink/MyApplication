@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     
+    
+    >
+
+    <RelativeLayout
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:orientation="horizontal"
+    android:background="@color/main_blue" 
+    android:gravity="center_vertical"
+    >
+
+    <ImageView
+       
+    android:background="@drawable/back"
+    android:layout_width="20dip"
+    android:layout_height="30dip"
+    android:layout_marginLeft="10dp"
+    android:layout_centerVertical="true"
+         />
+    <TextView
+       
+    
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="问题详情"
+    android:textColor="#ffffff"
+    android:textSize="20sp"
+    android:layout_centerInParent="true"
+         />
+    
+    <ImageView
+    
+    android:background="@drawable/share"
+    android:layout_width="40dip"
+    android:layout_height="30dip"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="10dp"
+    android:layout_centerVertical="true"
+         />
+   </RelativeLayout>
+    
+    
+    
+    <ImageView
+    android:layout_below="@id/title"   
+    android:background="@drawable/pt_things"
+    android:layout_width="match_parent"
+    android:layout_height="150dip"
+    
+         />
+   
+    <ImageView
+     
+    android:background="@drawable/play"
+    android:layout_width="80dip"
+    android:layout_height="80dip"
+    android:layout_marginTop="150dip"
+    android:layout_centerHorizontal="true"
+         />
+   </RelativeLayout>
+   
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     
+    >
+
+    <TextView
+    android:background="@color/textview_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:layout_centerHorizontal="true"
+    android:text="李小姐描述：
+电脑一直开不了机，开机的时候就会出现一个蓝色
+屏幕，然后上面很多英文什么的.希望好心人帮我看
+看什么问题，可以在周一晚上联系我哒。"
+    android:paddingTop="10dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingBottom="10dip"
+    android:textColor="@color/textview_text_color"
+         />
+    <RelativeLayout
+     
+    android:background="@color/main_brawn"
+    android:layout_width="match_parent"
+    android:layout_height="30dip"
+    android:layout_marginTop="10dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:layout_centerHorizontal="true"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+         >
+    
+    <TextView
+    android:layout_centerVertical="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="状态：处理ing"
+    android:textColor="#ffffff"
+    
+    />
+        
+    <TextView
+    android:layout_centerVertical="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="发布于2014-8-22 22:00"
+    android:textColor="#ffffff"
+    android:layout_alignParentRight="true"
+    />
+   </RelativeLayout>
+   
+    <RelativeLayout
+     
+    android:background="@color/main_brawn"
+    android:layout_width="match_parent"
+    android:layout_height="30dip"
+    android:layout_marginTop="10dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:layout_centerHorizontal="true"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+         >
+    
+    <TextView
+    android:layout_centerVertical="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="师傅：李师傅"
+    android:textColor="#ffffff"
+    
+    />
+        
+    <TextView
+    android:layout_centerVertical="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="接单时间2014-8-22 22:00"
+    android:textColor="#ffffff"
+    android:layout_alignParentRight="true"
+    />
+   </RelativeLayout>
+    
+</LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    >
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="11dip"
+    android:orientation="horizontal"
+    >
+    
+    <Button
+    android:layout_width="50dip"
+    android:layout_height="45dip"
+    android:background="@color/main_brawn"
+    android:text="联系"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="10dip"
+    android:layout_weight="1" 
+    />
+    <Button
+    android:layout_width="50dip"
+    android:layout_height="45dip"
+    android:background="@color/main_brawn"
+    android:text="完成"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="10dip"
+    android:layout_centerHorizontal="true"
+    android:layout_weight="1" 
+    />
+    <Button
+    android:layout_width="50dip"
+    android:layout_height="45dip"
+    android:background="@color/main_brawn"
+    android:text="编辑"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="10dip"
+    android:layout_centerHorizontal="true"
+    android:layout_weight="1" 
+    />
+    <Button
+    android:layout_width="50dip"
+    android:layout_height="45dip"
+    android:background="@color/main_brawn"
+    android:text="关闭"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:layout_weight="1" 
+    />
+   
+    </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
+<!-- From: file:/D:/AndroidStudioWorkspase/MyApplication/RepairService/res/layout/activity_unsolved.xml -->

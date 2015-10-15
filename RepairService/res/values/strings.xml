@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RepairService</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name = "spin_prompt" > 请选择问题类型</string >
+    <string name = "diannao" > 电脑 </string >
+
+    <string name = "shouji" > 手机 </string >
+
+    <string name = "dianshi" > 电视</string >
+
+    <string name = "shouyinji" > 收音机 </string >
+    <string name = "zhuangxitong" >装系统</string >
+
+    <string name = "shuaji" > 刷机 </string >
+
+    <string-array name = "cities">
+
+                   <item> 电脑 </item>
+
+                   <item> 手机 </item>
+
+                   <item> 电视 </item>
+
+                   <item> 收音机 </item>
+
+                   <item> 装系统</item>
+
+                   <item> 刷机</item>
+
+    </string-array>
+    <string name="pull_to_refresh_header_hint_loading">正在加载中</string>
+    <string name="pull_to_refresh_header_hint_normal2">上拉可以刷新</string>
+    <string name="pull_to_refresh_header_hint_ready">松开后刷新</string>
+    <string name="pushmsg_center_no_more_msg">已经到底啦</string>
+    
+    <!-- Search failure message. -->
+    <string name="no_results">No results found for \"%s\"</string>
+    <string name="search_label">Search</string>
+    <string name="search_hint">键入关键字</string>
+    <string name="search">search</string>
+</resources>

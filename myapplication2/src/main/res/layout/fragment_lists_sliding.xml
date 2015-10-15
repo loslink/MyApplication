@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:gravity="center"
+    android:text="全部类型"
+    android:textColor="#ffffff"
+    android:background="#10aedc"
+    android:textSize="@dimen/title_size"
+    android:layout_centerInParent="true"
+         />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="1px"
+    android:background="#9910aedc"
+         />
+<GridView
+        android:id="@+id/page_home_grid_people"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cc10aedc"
+        android:verticalSpacing="1px"
+        android:horizontalSpacing="10dip"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:numColumns="1"/>
+   
+  
+</LinearLayout>

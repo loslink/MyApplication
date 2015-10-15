@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical" >
+
+<LinearLayout 
+    android:id="@+id/llayout_fabu1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     
+    
+    >
+
+    <RelativeLayout
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:orientation="horizontal"
+    android:background="@color/main_blue" 
+    android:gravity="center_vertical"
+    >
+
+    <ImageView
+       android:id="@+id/back_edit"
+    android:background="@drawable/back"
+    android:layout_width="20dip"
+    android:layout_height="30dip"
+    android:layout_marginLeft="10dp"
+    android:layout_centerVertical="true"
+         />
+    <TextView
+       
+    
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="发布编辑"
+    android:textColor="#ffffff"
+    android:textSize="@dimen/title_size"
+    android:layout_centerInParent="true"
+         />
+    
+    
+   </RelativeLayout>
+    
+    
+    <RelativeLayout
+    android:id="@+id/fabu_camera"
+    android:layout_below="@id/title"   
+    android:background="@color/textview_background"
+    android:layout_width="match_parent"
+    android:layout_height="100dip"
+    android:layout_marginTop="10dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    
+    >
+    
+    <ImageView
+    android:background="@drawable/camera"
+    android:layout_width="70dip"
+    android:layout_height="53dip"
+    android:layout_marginTop="25dip"
+    android:layout_centerInParent="true"
+         />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/rl_tupian"
+    android:layout_below="@id/title"
+    android:layout_width="match_parent"
+    android:layout_height="100dip"
+    android:layout_marginTop="10dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:visibility="gone"
+    >
+    <ImageView
+    android:id="@+id/things_photo11"
+    android:background="@drawable/pc_add"
+    android:layout_width="100dip"
+    android:layout_height="100dip"
+         />
+    <ImageView
+        android:id="@+id/things_photo22"
+    android:background="@drawable/pc_add"
+    android:layout_width="100dip"
+    android:layout_height="100dip"
+    android:layout_centerHorizontal="true"
+         />
+    <ImageView
+        android:id="@+id/things_photo33"
+    android:background="@drawable/pc_add"
+    android:layout_width="100dip"
+    android:layout_height="100dip"
+    android:layout_alignParentRight="true"
+         />
+   </RelativeLayout>
+    
+   </RelativeLayout>
+   <Spinner 
+       android:id="@+id/Spinner01"
+       android:layout_width="fill_parent"
+       android:layout_height="50dip"
+       android:layout_marginLeft="10dip"
+       android:layout_marginRight="10dip"
+       android:layout_marginTop="10dip"
+       android:prompt = "@string/spin_prompt"
+       >
+   </Spinner>
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     
+    >
+
+   
+    
+    <EditText 
+    android:id="@+id/network_set_ip"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:layout_centerHorizontal="true"
+   
+    android:text="自己描述：
+电脑一直开不了机，开机的时候就会出现一个蓝色
+屏幕，然后上面很多英文什么的.希望好心人帮我看
+看什么问题，可以在周一晚上联系我哒。"
+android:textSize="14sp"
+    android:textColor="@color/textview_text_color"
+    android:background="@drawable/shape_miaoshu"
+    
+                />
+    
+</LinearLayout>
+
+   <ImageView
+       android:id="@+id/record"
+    android:background="@drawable/record"
+    android:layout_width="90dip"
+    android:layout_height="86dip"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center_horizontal"
+         />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="horizontal" >
+   <Button
+        android:id="@+id/bt_fabu1"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginBottom="10dip"
+        android:background="@drawable/shape"
+        android:onClick="click"
+        android:text="确认发布"
+        android:textColor="#ffffff"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        />
+</LinearLayout>
+
+
+
+</LinearLayout>
+
+
+<LinearLayout 
+    android:id="@+id/llayout_fabu2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:visibility="gone"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+    
+    android:layout_width="match_parent"
+    android:layout_height="45dip"
+    android:orientation="horizontal"
+    android:background="@color/main_blue" 
+    android:gravity="center_vertical"
+    >
+
+    <ImageView
+       
+    android:background="@drawable/back"
+    android:layout_width="20dip"
+    android:layout_height="30dip"
+    android:layout_marginLeft="10dp"
+    android:layout_centerVertical="true"
+         />
+    <TextView
+       
+    
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="发布编辑"
+    android:textColor="#ffffff"
+    android:textSize="@dimen/title_size"
+    android:layout_centerInParent="true"
+         />
+    
+    
+   </RelativeLayout>
+    
+    
+    
+    
+   <RelativeLayout
+    
+    android:layout_width="match_parent"
+    android:layout_height="100dip"
+    android:layout_marginTop="10dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    >
+    <ImageView
+        android:id="@+id/things_photo1"
+    android:background="@drawable/pc_add"
+    android:layout_width="100dip"
+    android:layout_height="100dip"
+         />
+    <ImageView
+        android:id="@+id/things_photo2"
+    android:background="@drawable/pc_add"
+    android:layout_width="100dip"
+    android:layout_height="100dip"
+    android:layout_centerHorizontal="true"
+         />
+    <ImageView
+        android:id="@+id/things_photo3"
+    android:background="@drawable/pc_add"
+    android:layout_width="100dip"
+    android:layout_height="100dip"
+    android:layout_alignParentRight="true"
+         />
+   </RelativeLayout>
+ </RelativeLayout>
+   <Spinner 
+       android:id="@+id/Spinner02"
+       android:layout_width="fill_parent"
+       android:layout_height="50dip"
+       android:layout_marginLeft="10dip"
+       android:layout_marginRight="10dip"
+       android:layout_marginTop="10dip"
+       
+       >
+   </Spinner>
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     
+    >
+
+    <TextView
+    android:background="@color/textview_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:layout_centerHorizontal="true"
+    android:text="自己描述：
+电脑一直开不了机，开机的时候就会出现一个蓝色
+屏幕，然后上面很多英文什么的.希望好心人帮我看
+看什么问题，可以在周一晚上联系我哒。"
+    android:paddingTop="10dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingBottom="10dip"
+    android:textColor="@color/textview_text_color"
+         />
+    
+</LinearLayout>
+
+   <ImageView
+    android:background="@drawable/play_delete"
+    android:layout_width="90dip"
+    android:layout_height="90dip"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center_horizontal"
+         />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="horizontal" >
+   <Button
+        
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_marginBottom="10dip"
+        android:background="@drawable/shape"
+        android:onClick="click"
+        android:text="确认发布"
+        android:textColor="#ffffff"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        />
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>

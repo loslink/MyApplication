@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     
+    
+    >
+
+    <RelativeLayout
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:orientation="horizontal"
+    android:background="@color/main_blue" 
+    android:gravity="center_vertical"
+    >
+
+    <ImageView
+       android:id="@+id/back_iv"
+    android:background="@drawable/back"
+    android:layout_width="20dip"
+    android:layout_height="30dip"
+    android:layout_marginLeft="10dp"
+    android:layout_centerVertical="true"
+         />
+    <TextView
+       
+    
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="师傅个人页"
+    android:textColor="#ffffff"
+    android:textSize="@dimen/title_size"
+    android:layout_centerInParent="true"
+         />
+    
+    
+   </RelativeLayout>
+    
+    
+    <View
+        android:layout_below="@id/title"
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#77000000"/>
+    <LinearLayout
+    android:layout_below="@id/line"   
+    
+    android:layout_width="match_parent"
+    android:layout_height="100dip"
+    android:orientation="vertical"
+         >
+    
+    
+    <RelativeLayout
+                    android:layout_width="85dip"
+                    android:layout_height="85dip"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dip"
+                    android:background="@drawable/shape_round2"
+                    android:padding="4dp" >
+
+                    <ImageView
+                        android:id="@+id/pc_head"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/pc_head" />
+                </RelativeLayout>
+    
+    </LinearLayout>
+   
+    
+   </RelativeLayout>
+   
+
+
+
+   
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dip" 
+    android:background="#ffffff"
+    android:padding="10dip">
+    
+       <TextView
+           android:id="@+id/nickname_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="昵称：大师兄"
+        android:textColor="@color/textview_text_color"
+        android:layout_marginTop="5dip"
+        /> 
+        <TextView
+            android:id="@+id/sex_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性别：男"
+        android:textColor="@color/textview_text_color"
+        android:layout_marginTop="5dip"
+        />
+        <TextView
+            android:id="@+id/t_s_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="等级：大神一级"
+        android:textColor="@color/textview_text_color"
+        android:layout_marginTop="5dip"
+        />
+        <TextView
+            android:id="@+id/qq_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QQ：9659180878"
+        android:textColor="@color/textview_text_color"
+        android:layout_marginTop="5dip"
+        />
+        <TextView
+            android:id="@+id/address_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="常在地：广州番禺区大学城"
+        android:textColor="@color/textview_text_color"
+        android:layout_marginTop="5dip"
+        />
+        <TextView
+            android:id="@+id/pro_det_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="擅长内容：维修电脑、维修手机、维修电视、维修收音机"
+        android:textColor="@color/textview_text_color"
+        android:layout_marginTop="5dip"
+        />
+        
+    </LinearLayout>
+        
+    
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+    android:layout_marginBottom="11dip"
+    >
+    <Button
+        android:id="@+id/phoneBtn"
+    android:layout_width="100dip"
+    android:layout_height="40dip"
+    android:background="@color/main_brawn"
+    android:text="电话联系"
+    android:textColor="#ffffff"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="10dip"
+    />
+    <Button
+        android:id="@+id/collectBtn"
+    android:layout_width="100dip"
+    android:layout_height="40dip"
+    android:background="@color/main_brawn"
+    android:text="收藏TA"
+    android:textColor="#ffffff"
+    android:layout_centerHorizontal="true"
+    />
+    <Button
+        android:id="@+id/sms_btn"
+    android:layout_width="100dip"
+    android:layout_height="40dip"
+    android:background="@color/main_brawn"
+    android:text="短信联系"
+    android:textColor="#ffffff"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="10dip"
+    />
+    </RelativeLayout>
+   <Button
+        android:id="@+id/orderHistoryBtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="10dip"
+        android:background="@drawable/shape"
+        
+        
+        android:text="接单历史"
+        android:textColor="#ffffff"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        />
+</LinearLayout>
+</LinearLayout>
+<!-- From: file:/D:/AndroidStudioWorkspase/MyApplication/RepairService/res/layout/activity_shifu_personal.xml -->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:orientation="vertical" 
+    android:layout_width="wrap_content"   
+    android:layout_height="wrap_content"
+    android:padding="1px"
+    android:background="@drawable/shape_question">   
+    <ImageView 
+        android:layout_height="100dip" 
+        android:id="@+id/item_imageView_main_page"   
+        android:layout_width="200dip" 
+        android:src="@drawable/pc_1" 
+        android:layout_gravity="center">
+    </ImageView>   
+    <TextView android:text="猪八戒爱泡妞" 
+        android:id="@+id/item_textView_main_page"   
+        android:layout_width="match_parent"  
+        android:textColor="@color/textview_text_color"  
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center"
+        
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="3dip"
+        android:paddingBottom="3dip"
+        android:textSize="10sp"
+        android:lines="1">
+    </TextView>   
+   <TextView android:text="2014-9-30" 
+        android:id="@+id/item_tv_time_main_page"   
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content" 
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:paddingLeft="5dip"
+        android:paddingRight="10dip"
+        android:paddingTop="0dip"
+        android:paddingBottom="3dip"
+        android:textSize="8sp"
+        android:textColor="#77000000"
+        android:lines="1">
+    </TextView>   
+</LinearLayout> 
+

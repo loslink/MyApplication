@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:orientation="horizontal"
+    android:background="@color/main_blue" 
+    android:gravity="center_vertical"
+    >
+
+    <ImageView
+        android:id="@+id/back"
+    android:background="@drawable/back"
+    android:layout_width="20dip"
+    android:layout_height="30dip"
+    android:layout_marginLeft="10dp"
+    android:layout_centerVertical="true"
+         />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="通讯录添加"
+    android:textColor="#ffffff"
+    android:textSize="@dimen/title_size"
+    android:layout_centerInParent="true"
+         />
+    
+   </RelativeLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dip"
+    android:layout_marginBottom="10dip"
+    android:gravity="center_vertical"
+    >
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="8dip"
+    android:paddingBottom="8dip"
+    android:background="@drawable/shape_searchbox"
+    android:hint="搜索联系人"
+    android:textSize="15sp"
+         />
+    
+    </LinearLayout>
+    
+<GridView
+        android:id="@+id/page_home_grid_people"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33000000"
+        android:verticalSpacing="1px"
+        android:horizontalSpacing="10dip"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        
+        android:numColumns="1"/>
+   
+  
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="main_background">#f6f6f6</color>
+    <color name="textview_background">#ecebeb</color>
+    <color name="textview_text_color">#aa000000</color>
+    <color name="main_blue">#10aedc</color>
+    <color name="main_brawn">#a69c90</color>
+    <color name="main_brawn2">#aaa69c90</color>
+    <color name="main_yellow">#f0ce19</color>
+    <color name="white">#ffffff</color>
+    <color name="light_blue">#47bbec</color>
+    <color name="dark_blue">#2189c0</color>
+    <color name="line_gre">#33000000</color>
+    <color name="register_et">#88000000</color>
+
+    <color name="md_teal_900">#004D40</color>
+    <color name="md_white_1000">#ffffff</color>
+    <color name="md_teal_50">#E0F2F1</color>
+    <color name="md_teal_500">#009688</color>
+   
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:orientation="vertical" 
+    android:layout_width="wrap_content"   
+    android:layout_height="wrap_content"
+    android:background="#ffffff">   
+    <ImageView 
+        android:layout_height="100dip" 
+        android:id="@+id/item_imageView"   
+        android:layout_width="200dip" 
+        android:src="@drawable/pc_1" 
+        android:layout_gravity="center">
+    </ImageView>   
+    <TextView android:text="猪八戒爱泡妞、爱吃饭、爱偷懒" 
+        android:id="@+id/item_textView"   
+        android:layout_width="match_parent"  
+        android:textColor="@color/textview_text_color"  
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:lines="1"
+        android:textSize="12sp">
+    </TextView>   
+   <TextView android:text="2014-9-30" 
+        android:id="@+id/item_tv_time_main_page2"   
+        android:layout_width="match_parent"  
+        android:textColor="#55000000"  
+        android:layout_height="wrap_content" 
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:paddingLeft="5dip"
+        android:paddingRight="10dip"
+        android:paddingTop="0dip"
+        android:paddingBottom="3dip"
+        android:textSize="10sp"
+        android:lines="1">
+    </TextView>   
+</LinearLayout> 
+
+<!-- From: file:/D:/AndroidStudioWorkspase/MyApplication/RepairService/res/layout/grid_item.xml -->

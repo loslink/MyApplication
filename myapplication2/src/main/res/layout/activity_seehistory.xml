@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:orientation="horizontal"
+    android:background="@color/main_blue" 
+    android:gravity="center_vertical"
+    >
+
+    <ImageView
+    android:background="@drawable/back"
+    android:layout_width="20dip"
+    android:layout_height="30dip"
+    android:layout_marginLeft="10dp"
+    android:layout_centerVertical="true"
+         />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="查看历史"
+    android:textColor="#ffffff"
+    android:textSize="@dimen/title_size"
+    android:layout_centerInParent="true"
+         />
+    
+   </RelativeLayout>
+   <RelativeLayout
+    android:layout_width="200dip"
+    android:layout_height="35dip"
+    android:background="@drawable/shape_two_button"
+    android:gravity="bottom"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dip"
+    >
+
+    <ImageView
+    android:background="@drawable/shape_left_button"
+    android:layout_width="100dip"
+    android:layout_height="match_parent"
+         />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:text="接单历史"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="25dip"
+         />
+    <ImageView
+    android:layout_width="100dip"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+         />
+     <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:text="发布历史"
+    android:textColor="@color/main_blue"
+    android:layout_marginRight="25dip"
+    android:layout_alignParentRight="true"
+         />
+   </RelativeLayout>
+   
+   <GridView
+        android:id="@+id/page_home_grid_history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dip"
+        android:gravity="center_horizontal"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dip"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:numColumns="2"/>
+
+</LinearLayout>
